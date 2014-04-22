@@ -1,37 +1,9 @@
-﻿class lpthw(object):
-    """description of class"""
-    print("gathering of shit")
-    print("Start ex")
-    import ex1
-    print("---------------------------------------------------------")
-    print("End ex")
-
-    print("Start ex2")
-    print("---------------------------------------------------------")
-    import ex2
-    print("---------------------------------------------------------")
-    print("End ex2")
-
-    print("Start ex3")
-    print("---------------------------------------------------------")
-    import ex3
-    print("---------------------------------------------------------")
-    print("End ex3")
-
-    print("Start ex4")
-    print("---------------------------------------------------------")
-    import ex4
-    print("---------------------------------------------------------")
-    print("End ex4")
-
-    print("Start ex5")
-    print("---------------------------------------------------------")
-    import ex5
-    print("---------------------------------------------------------")
-    print("End ex5")
-
-    print("Start ex6")
-    print("---------------------------------------------------------")
-    import ex6
-    print("---------------------------------------------------------")
-    print("End ex6")
+﻿import os
+class lpthw(object):
+    from os import listdir
+    from os.path import isfile, join
+    files = [ f for f in listdir(os.curdir) if os.path.isfile(f)]
+    for f in files:
+      if f.startswith("ex"):
+          __import__(f.strip(".py"))
+          

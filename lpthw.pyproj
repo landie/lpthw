@@ -29,6 +29,8 @@
     <Compile Include="ex4.py" />
     <Compile Include="ex5.py" />
     <Compile Include="ex6.py" />
+    <Compile Include="ex11.py" />
+    <Compile Include="ex12.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
