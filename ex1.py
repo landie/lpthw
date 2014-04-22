@@ -1,8 +1,9 @@
-print "something"
-print "something"
-print "something"
-print "something"
-print "something"
-print "something"
-print "something"
-print "something"
+# exercise 1 lpthw: printing
+print("something")
+print("something")
+print("something")
+print("something")
+print("something")
+print("something")
+print("something")
+print("something")

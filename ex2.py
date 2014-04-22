@@ -1,7 +1,8 @@
-# a comment
+# exercise 2 lpthw: comments
 # another comment
-print "stuff"
+print("stuff")
 
 # more comments
 
-print "more stuff"
+print("more stuff")
+# 
