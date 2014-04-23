@@ -33,6 +33,7 @@
     <Compile Include="ex12.py" />
     <Compile Include="ex13.py" />
     <Compile Include="ex07.py" />
+    <Compile Include="ex26.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>

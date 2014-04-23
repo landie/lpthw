@@ -11,3 +11,5 @@ class lpthw(object):
           __import__(f.strip(".py"))
           print("---------------------------------------")  
           
+#    import ex26 
+#   commented since ex26 requires ex25 to run and i cant be bothered.
