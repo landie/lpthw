@@ -1,0 +1,1 @@
+print("skipping ex7-10")

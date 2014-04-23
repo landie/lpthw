@@ -23,14 +23,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="lpthw.py" />
-    <Compile Include="ex1.py" />
-    <Compile Include="ex2.py" />
-    <Compile Include="ex3.py" />
-    <Compile Include="ex4.py" />
-    <Compile Include="ex5.py" />
-    <Compile Include="ex6.py" />
+    <Compile Include="ex01.py" />
+    <Compile Include="ex02.py" />
+    <Compile Include="ex03.py" />
+    <Compile Include="ex04.py" />
+    <Compile Include="ex05.py" />
+    <Compile Include="ex06.py" />
     <Compile Include="ex11.py" />
     <Compile Include="ex12.py" />
+    <Compile Include="ex13.py" />
+    <Compile Include="ex07.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
